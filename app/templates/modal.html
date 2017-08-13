@@ -1,0 +1,11 @@
+<div class="modal-open">
+  Hello!
+  <input type="text" name="roomName" class="form-control" ng-model="roomName" required> </input>
+  <span class="error" ng-show="roomName.$error.required"> Required! </span>
+  <a href='#' ng-click=modal.add(roomName)>add</a>
+  <a href='#' ng-click=modal.close()>cancel</a>
+
+</div>
+
+<!-- //field ng-modal='roomName'
+//ng-click=modal.add(roomName) -->

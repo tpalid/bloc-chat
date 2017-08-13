@@ -1,2 +1,7 @@
-<h1>Home Page</h1>
-<p><a href="/room">ROOM</a></p>
+<h1>Bloc Chat</h1>
+<a href="#" ng-click=home.addRoom()>Add Room</a>
+<div ng-repeat="room in home.rooms">
+    <p> <a href="#" ng-click=home.showMessages()>{{ room.name }}</a></p>
+</div>
+
+<div>Messages</div
